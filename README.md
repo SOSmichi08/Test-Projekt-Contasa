@@ -4,7 +4,6 @@
 **Contasa** is a web-based project providing a user-friendly interface for managing repair and support services, user accounts, wishlists, and shopping carts. The website also offers an overview of orders and billing information.
 
 ## Table of Contents
-- [Project Structure](#project-structure)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
