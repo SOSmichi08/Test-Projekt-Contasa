@@ -1,0 +1,185 @@
+* { 
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0; 
+    border: 0; 
+}
+
+
+body {
+    background-color: #f7fafc; /* Equivalent to bg-gray-100 */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    line-height: 1.6; /* Equivalent to leading-normal */
+    letter-spacing: 0.025em; /* Equivalent to tracking-normal */
+}
+
+.header {
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Equivalent to shadow-md */
+    padding: 2rem; /* Equivalent to p-4 */
+}
+
+.container {
+    max-width: 1200px; /* Equivalent to mx-auto */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 2.5rem; /* Equivalent to h-10 */
+    margin-right: 1rem; /* Added space between logo and title */
+}
+
+.site-title {
+    font-size: 1.5rem; /* Equivalent to text-2xl */
+    font-weight: 700; /* Equivalent to font-bold */
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-item {
+    position: relative;
+    margin-right: 1rem;
+}
+
+.nav-button {
+    padding: 0.5rem 1rem; /* Equivalent to py-2 px-4 */
+    font-weight: 600; /* Equivalent to font-semibold */
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border-radius: 0.3rem;
+    z-index: 1;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.nav-item:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover {
+    color:limegreen;
+    box-shadow: 5px 3px 5px gray;
+    border:solid  1px gray;
+}
+.dropdown-item {
+    padding: 0.5rem 1rem; /* Equivalent to py-2 px-4 */
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.main {
+    padding: 1rem; /* Equivalent to p-4 */
+}
+
+.card {
+    padding: 1.5rem; /* Equivalent to p-6 */
+    border-radius: 0.5rem; /* Equivalent to rounded-lg */
+    margin-bottom: 1.5rem; /* Equivalent to mb-6 */
+    box-shadow: 8px 5px 1px 1px gray;
+    border: solid 1px gray;
+    margin-top: 4rem;
+}
+
+.card2 {
+    padding: 1.5rem; /* Equivalent to p-6 */
+    border-radius: 0.5rem; /* Equivalent to rounded-lg */
+    margin-bottom: 1.5rem; /* Equivalent to mb-6 */
+    background-color: transparent;
+    border-radius: 0.5rem;
+    box-shadow: 8px 5px 1px 1px gray;
+    border: solid 1px gray;
+}
+
+
+.section-title {
+    font-size: 1.5rem; /* Equivalent to text-xl */
+    font-weight: 600; /* Equivalent to font-semibold */
+    margin-bottom: 1rem; /* Equivalent to mb-4 */
+    font-weight: 700;
+}
+
+.section-title2 {
+    font-size: 1.5rem; /* Equivalent to text-xl */
+    font-weight: 600; /* Equivalent to font-semibold */
+    margin-bottom: 1rem; /* Equivalent to mb-4 */
+    font-weight: 700;
+    padding-top: 2rem;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse; /* Ensure no space between borders */
+}
+
+.table-header {
+    border-bottom: 1px solid #e2e8f0; /* Equivalent to border-b */
+    padding: 0.25rem; /* Equivalent to py-2 px-4 */
+    padding-left: 0rem;
+    padding-right: 1rem;
+    text-align: left;
+}
+
+.table-cell {
+    border-bottom: 1px solid #e2e8f0; /* Equivalent to border-b */
+    padding: 0.75rem 0rem; /* Increased padding for more space */
+}
+
+.footer {
+    margin-top: 10rem; /* Equivalent to mt-6 */
+    padding: 1.0rem; /* Equivalent to p-4 */
+    text-align: left;
+    position: relative;
+    width: 100%;
+    padding-left: 3rem;
+}
+
+.external-link {
+    text-decoration: none;
+    color: black;
+}
+
+.external-link:hover {
+    color:limegreen;
+}
+
+.site-title {
+    text-decoration: none;
+    color:black
+}
+
+.site-title:hover {
+    color:limegreen;
+}
+
+.logo {
+    height:70px;
+}
